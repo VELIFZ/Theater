@@ -1,0 +1,74 @@
+
+#button {
+    background-color: rgb(218, 173, 27); 
+    color: white; 
+    border-style: solid; 
+    border-color: rgb(139, 139, 139); 
+    border-width:thin;
+    float: end;
+    height: 40px;
+    width: 100px;
+}
+
+
+
+.flexbox-container {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border-style: ;
+}
+
+.flexbox-item {
+    border-style: none;
+    flex-shrink: 0;
+}
+
+
+
+.flexbox-item-3 {
+    min-height: 10px;
+}
+
+.contact-container {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    position: relative;
+    color: white;
+}
+
+.contact-item {
+    flex-shrink: 0;
+    font-size: small;
+    font-style: oblique;
+}
+
+.info{
+   height: 220px;
+}
+
+.social {
+    height: 220px;
+
+}
+
+.nav-item a:hover {
+    color: rgb(223, 223, 176);
+}
+
+.text {
+    text-align: center;
+    position: absolute;
+}
+
+.img-fluid {
+    z-index: 0;
+}
+.centered { 
+	z-index: index 10px;; 
+	font-size: 1.2em 
+	margin-top: -100px; 
+}
