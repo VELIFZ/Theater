@@ -16,7 +16,7 @@
     display: flex;
     justify-content:space-around;
     align-items: center;
-    border-style: ;
+    
 }
 
 .flexbox-item {
@@ -67,8 +67,7 @@
 .img-fluid {
     z-index: 0;
 }
-.centered { 
-	z-index: index 10px;; 
-	font-size: 1.2em 
-	margin-top: -100px; 
+
+.card-title {
+    font-size: 500%;
 }
